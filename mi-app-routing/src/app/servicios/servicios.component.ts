@@ -127,7 +127,7 @@ import { RouterLink } from '@angular/router';
               RouterLink permite navegar a la página de contacto
               sin recargar toda la aplicación.
             -->
-            <a routerLink="/contact">
+            <a routerLink="/servicios/web">
               Ver más →
             </a>
 
@@ -178,7 +178,7 @@ import { RouterLink } from '@angular/router';
             </p>
 
             <!-- Enlace a contacto -->
-            <a routerLink="/contact">
+            <a routerLink="/servicios/redes-sociales">
               Ver más →
             </a>
 
@@ -217,7 +217,7 @@ import { RouterLink } from '@angular/router';
             </p>
 
             <!-- Enlace -->
-            <a routerLink="/contact">
+            <a routerLink="/servicios/marketing">
               Ver más →
             </a>
 
@@ -261,7 +261,7 @@ import { RouterLink } from '@angular/router';
             </p>
 
             <!-- Enlace -->
-            <a routerLink="/contact">
+            <a routerLink="/servicios/software">
               Ver más →
             </a>
 
@@ -302,7 +302,7 @@ import { RouterLink } from '@angular/router';
             </p>
 
             <!-- Enlace -->
-            <a routerLink="/contact">
+            <a routerLink="/servicios/hosting">
               Ver más →
             </a>
 
@@ -343,7 +343,7 @@ import { RouterLink } from '@angular/router';
             </p>
 
             <!-- Enlace -->
-            <a routerLink="/contact">
+            <a routerLink="/servicios/estrategia">
               Ver más →
             </a>
 
@@ -383,7 +383,7 @@ import { RouterLink } from '@angular/router';
             </p>
 
             <!-- Enlace -->
-            <a routerLink="/contact">
+            <a routerLink="/servicios/identidad">
               Ver más →
             </a>
 

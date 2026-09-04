@@ -1,0 +1,190 @@
+<div class="detalle-page">
+
+  <div class="detalle-container">
+
+    <h1>Información del Servicio</h1>
+
+    <!-- Diseño Web -->
+    <section *ngIf="servicio === 'web'">
+
+      <h2>Diseño Web Apps</h2>
+
+      <p>
+        Creamos sitios web y aplicaciones web modernas,
+        responsivas y optimizadas para ofrecer la mejor
+        experiencia de usuario.
+      </p>
+
+      <h3>¿Qué ofrecemos?</h3>
+
+      <ul>
+        <li>Diseño web moderno</li>
+        <li>Diseño adaptable a celulares</li>
+        <li>Aplicaciones web</li>
+        <li>Optimización de rendimiento</li>
+        <li>Experiencia de usuario</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Redes Sociales -->
+    <section *ngIf="servicio === 'redes-sociales'">
+
+      <h2>Redes Sociales</h2>
+
+      <p>
+        Gestionamos y potenciamos tus redes sociales para
+        aumentar tu presencia digital y conectar con tu
+        audiencia.
+      </p>
+
+      <h3>¿Qué ofrecemos?</h3>
+
+      <ul>
+        <li>Creación de contenido</li>
+        <li>Gestión de redes sociales</li>
+        <li>Calendario de publicaciones</li>
+        <li>Publicidad en redes</li>
+        <li>Análisis de resultados</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Marketing -->
+    <section *ngIf="servicio === 'marketing'">
+
+      <h2>Marketing Digital</h2>
+
+      <p>
+        Diseñamos estrategias digitales efectivas para atraer,
+        convertir y fidelizar clientes.
+      </p>
+
+      <h3>¿Qué ofrecemos?</h3>
+
+      <ul>
+        <li>Campañas digitales</li>
+        <li>Publicidad online</li>
+        <li>SEO</li>
+        <li>Email marketing</li>
+        <li>Análisis de conversiones</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Software -->
+    <section *ngIf="servicio === 'software'">
+
+      <h2>Desarrollo Software</h2>
+
+      <p>
+        Desarrollamos software a medida que se adapta a las
+        necesidades de tu negocio.
+      </p>
+
+      <h3>¿Qué ofrecemos?</h3>
+
+      <ul>
+        <li>Software personalizado</li>
+        <li>Sistemas empresariales</li>
+        <li>Aplicaciones web</li>
+        <li>Integración de sistemas</li>
+        <li>Mantenimiento</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Hosting -->
+    <section *ngIf="servicio === 'hosting'">
+
+      <h2>Hosting & Dominio</h2>
+
+      <p>
+        Ofrecemos hosting seguro, rápido y confiable para
+        mantener tu proyecto disponible en Internet.
+      </p>
+
+      <h3>¿Qué ofrecemos?</h3>
+
+      <ul>
+        <li>Hosting web</li>
+        <li>Registro de dominios</li>
+        <li>Certificado SSL</li>
+        <li>Copias de seguridad</li>
+        <li>Soporte técnico</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Estrategia -->
+    <section *ngIf="servicio === 'estrategia'">
+
+      <h2>Estrategia Digital</h2>
+
+      <p>
+        Analizamos tu negocio y creamos estrategias digitales
+        personalizadas para lograr tus objetivos.
+      </p>
+
+      <h3>¿Qué ofrecemos?</h3>
+
+      <ul>
+        <li>Análisis del negocio</li>
+        <li>Planificación digital</li>
+        <li>Análisis de competencia</li>
+        <li>Definición de objetivos</li>
+        <li>Medición de resultados</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Identidad -->
+    <section *ngIf="servicio === 'identidad'">
+
+      <h2>Identidad Corporativa</h2>
+
+      <p>
+        Diseñamos la identidad visual de tu marca para que
+        comuniques profesionalismo y generes confianza.
+      </p>
+
+      <h3>¿Qué ofrecemos?</h3>
+
+      <ul>
+        <li>Diseño de logotipo</li>
+        <li>Colores corporativos</li>
+        <li>Tipografía</li>
+        <li>Manual de marca</li>
+        <li>Material corporativo</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Botones -->
+    <div class="buttons">
+
+      <a
+        routerLink="/servicios"
+        class="btn btn-back">
+        ← Volver a Servicios
+      </a>
+
+      <a
+        routerLink="/contact"
+        class="btn btn-contact">
+        Solicitar información
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+

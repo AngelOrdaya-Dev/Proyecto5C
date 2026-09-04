@@ -1,0 +1,113 @@
+.detalle-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.detalle-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 35px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.detalle-container h1 {
+  text-align: center;
+  color: #173d72;
+  margin-bottom: 30px;
+}
+
+.detalle-container h2 {
+  color: #1769d1;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.detalle-container p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.detalle-container h3 {
+  color: #173d72;
+  margin-top: 30px;
+}
+
+.detalle-container ul {
+  padding-left: 25px;
+  line-height: 2;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-back {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-back:hover {
+  background-color: #545b62;
+}
+
+.btn-contact {
+  background-color: #1769d1;
+  color: white;
+}
+
+.btn-contact:hover {
+  background-color: #0d4fa8;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+  .detalle-page {
+    padding: 20px 10px;
+  }
+
+  .detalle-container {
+    padding: 20px 15px;
+  }
+
+  .detalle-container h1 {
+    font-size: 24px;
+  }
+
+  .detalle-container h2 {
+    font-size: 22px;
+  }
+
+  .detalle-container p {
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}

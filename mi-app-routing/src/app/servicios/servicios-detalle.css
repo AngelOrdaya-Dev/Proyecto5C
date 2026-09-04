@@ -1,0 +1,250 @@
+/* =========================================
+   CONTENEDOR PRINCIPAL
+   ========================================= */
+
+.service-detail {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-bottom: 40px;
+}
+
+
+/* =========================================
+   ENCABEZADO
+   ========================================= */
+
+.service-header {
+  background:
+    linear-gradient(
+      135deg,
+      #06244b,
+      #1769d1
+    );
+
+  color: white;
+
+  text-align: center;
+
+  padding: 50px 20px;
+}
+
+
+.service-header h1 {
+  margin: 0 0 15px;
+
+  font-size: 32px;
+
+  font-weight: 700;
+}
+
+
+.service-header p {
+  margin: 0;
+
+  font-size: 16px;
+
+  color: #e7f2ff;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   CONTENIDO
+   ========================================= */
+
+.service-content {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 35px 20px;
+}
+
+
+.service-content h2 {
+  color: #1769d1;
+
+  font-size: 24px;
+
+  margin-top: 25px;
+
+  margin-bottom: 15px;
+}
+
+
+.service-content p {
+  color: #555;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   CARACTERÍSTICAS
+   ========================================= */
+
+.features {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 15px;
+
+  margin-top: 20px;
+}
+
+
+.feature {
+  background-color: #f5f9ff;
+
+  border: 1px solid #d9e8f8;
+
+  border-radius: 8px;
+
+  padding: 20px;
+
+  transition: 0.3s;
+}
+
+
+.feature:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 5px 15px rgba(0, 90, 170, 0.12);
+}
+
+
+.feature h3 {
+  color: #173d72;
+
+  margin-top: 0;
+
+  margin-bottom: 8px;
+
+  font-size: 17px;
+}
+
+
+.feature p {
+  font-size: 14px;
+
+  margin: 0;
+}
+
+
+/* =========================================
+   BOTONES
+   ========================================= */
+
+.buttons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 15px;
+
+  margin-top: 35px;
+}
+
+
+.btn {
+  display: inline-block;
+
+  padding: 12px 20px;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+
+.back {
+  background-color: #6c757d;
+
+  color: white;
+}
+
+
+.back:hover {
+  background-color: #545b62;
+}
+
+
+.contact {
+  background-color: #1769d1;
+
+  color: white;
+}
+
+
+.contact:hover {
+  background-color: #0d4fa8;
+}
+
+
+/* =========================================
+   CELULAR
+   ========================================= */
+
+@media (max-width: 600px) {
+
+  .service-header {
+    padding: 35px 15px;
+  }
+
+
+  .service-header h1 {
+    font-size: 25px;
+  }
+
+
+  .service-header p {
+    font-size: 14px;
+  }
+
+
+  .service-content {
+    padding: 25px 15px;
+  }
+
+
+  .service-content h2 {
+    font-size: 21px;
+  }
+
+
+  .service-content p {
+    font-size: 14px;
+  }
+
+
+  /* Una columna en celular */
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* Botones uno debajo del otro */
+
+  .buttons {
+    flex-direction: column;
+  }
+
+
+  .btn {
+    width: 100%;
+
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,146 @@
+.service-detail {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.service-header {
+  background: linear-gradient(
+    135deg,
+    #06244b,
+    #1769d1
+  );
+
+  color: white;
+  text-align: center;
+
+  padding: 50px 20px;
+}
+
+.service-header h1 {
+  margin: 0 0 15px;
+
+  font-size: 32px;
+}
+
+.service-header p {
+  margin: 0;
+
+  font-size: 16px;
+
+  color: #e7f2ff;
+}
+
+.service-content {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 35px 20px;
+}
+
+.service-content h2 {
+  color: #1769d1;
+
+  margin-top: 25px;
+}
+
+.service-content p {
+  color: #555;
+
+  line-height: 1.7;
+}
+
+.features {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 15px;
+
+  margin-top: 20px;
+}
+
+.feature {
+  background-color: #f5f9ff;
+
+  border: 1px solid #d9e8f8;
+
+  border-radius: 8px;
+
+  padding: 20px;
+}
+
+.feature h3 {
+  color: #173d72;
+
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 15px;
+
+  margin-top: 35px;
+}
+
+.btn {
+  padding: 12px 20px;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+.back {
+  background-color: #6c757d;
+
+  color: white;
+}
+
+.contact {
+  background-color: #1769d1;
+
+  color: white;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+  .service-header {
+    padding: 35px 15px;
+  }
+
+  .service-header h1 {
+    font-size: 25px;
+  }
+
+  .service-header p {
+    font-size: 14px;
+  }
+
+  .service-content {
+    padding: 25px 15px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+}
