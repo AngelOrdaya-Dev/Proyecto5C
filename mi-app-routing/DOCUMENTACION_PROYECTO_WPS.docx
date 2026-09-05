@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>DOCUMENTACION TECNICA Y ACADEMICA - COMPANYAPP</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page Section1 {
+    size: 8.5in 11.0in;
+    margin: 1.0in 1.0in 1.0in 1.0in;
+    mso-header-margin: 0.5in;
+    mso-footer-margin: 0.5in;
+    mso-paper-source: 0;
+  }
+  div.Section1 {
+    page: Section1;
+  }
+  body {
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #2c3e50;
+  }
+  h1.title-cover {
+    color: #1b4f91;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+  }
+  h2.subtitle-cover {
+    color: #1769d1;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 25pt;
+  }
+  .info-box {
+    background-color: #f0f6ff;
+    border: 2px solid #1769d1;
+    border-radius: 6px;
+    padding: 15pt;
+    margin-bottom: 25pt;
+  }
+  .info-box table {
+    width: 100%;
+    border: none;
+  }
+  .info-box td {
+    border: none;
+    padding: 4pt 8pt;
+    font-size: 10.5pt;
+  }
+  .info-box td.label {
+    font-weight: bold;
+    color: #1b4f91;
+    width: 25%;
+  }
+  h1 {
+    color: #1b4f91;
+    font-size: 16pt;
+    border-bottom: 2px solid #1b4f91;
+    padding-bottom: 4pt;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
+  }
+  h2 {
+    color: #1769d1;
+    font-size: 13pt;
+    border-bottom: 1px solid #cfe2ff;
+    padding-bottom: 3pt;
+    margin-top: 15pt;
+    margin-bottom: 8pt;
+  }
+  h3 {
+    color: #0d4fa8;
+    font-size: 11.5pt;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 10pt;
+    text-align: justify;
+  }
+  ul, ol {
+    margin-top: 0;
+    margin-bottom: 10pt;
+    padding-left: 20pt;
+  }
+  li {
+    margin-bottom: 4pt;
+  }
+  table.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10pt;
+    margin-bottom: 15pt;
+  }
+  table.data-table th, table.data-table td {
+    border: 1px solid #dcdcdc;
+    padding: 8pt 10pt;
+    font-size: 10pt;
+  }
+  table.data-table th {
+    background-color: #1769d1;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+  }
+  table.data-table tr:nth-child(even) {
+    background-color: #f9fbfd;
+  }
+  pre {
+    background-color: #f4f6f9;
+    border: 1px solid #dce1e8;
+    border-left: 4px solid #1769d1;
+    padding: 10pt;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.5pt;
+    color: #24292e;
+    margin-top: 8pt;
+    margin-bottom: 12pt;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    background-color: #f1f3f6;
+    color: #d63384;
+    padding: 2pt 4pt;
+    font-size: 9.5pt;
+    border-radius: 3pt;
+  }
+  .highlight {
+    background-color: #e6f4ea;
+    border: 1px solid #b7e1cd;
+    color: #137333;
+    padding: 8pt 12pt;
+    border-radius: 4pt;
+    margin-bottom: 10pt;
+  }
+  .footer-note {
+    font-size: 9pt;
+    color: #7f8c8d;
+    text-align: center;
+    margin-top: 30pt;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10pt;
+  }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+  <h1 class="title-cover">📄 DOCUMENTACIÓN TÉCNICA Y ACADÉMICA</h1>
+  <h2 class="subtitle-cover">Sistema de Navegación y Servicios Web - CompanyApp (Proyecto5C)</h2>
+
+  <div class="info-box">
+    <table>
+      <tr>
+        <td class="label">Nombre de la Aplicación:</td>
+        <td>CompanyApp (Proyecto5C)</td>
+      </tr>
+      <tr>
+        <td class="label">Repositorio GitHub:</td>
+        <td><a href="https://github.com/AngelOrdaya-Dev/Proyecto5C">https://github.com/AngelOrdaya-Dev/Proyecto5C</a></td>
+      </tr>
+      <tr>
+        <td class="label">Framework Principal:</td>
+        <td>Angular 17.3.0 (Standalone Components)</td>
+      </tr>
+      <tr>
+        <td class="label">Lenguajes de Programación:</td>
+        <td>TypeScript 5.4 / HTML5 / CSS3</td>
+      </tr>
+      <tr>
+        <td class="label">Entorno de Ejecución:</td>
+        <td>Node.js v24.15.0 / Angular CLI 17.3.2</td>
+      </tr>
+      <tr>
+        <td class="label">Estudiante / Desarrollador:</td>
+        <td>Angel Ordaya (AngelOrdaya-Dev)</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #cfe2ff; margin-bottom: 20pt;">
+
+  <h1>1. 🎯 Descripción General del Proyecto</h1>
+  <p><strong>CompanyApp</strong> es una solución web moderna tipo <em>Single Page Application</em> (SPA) desarrollada sobre el framework <strong>Angular 17</strong>, diseñada para presentar los servicios corporativos, información institucional y canales de contacto directo de una empresa tecnológica de manera fluida, ágil y visualmente atractiva.</p>
+  
+  <h3>Objetivos Principales del Proyecto:</h3>
+  <ul>
+    <li><strong>Navegación sin recarga de página:</strong> Implementar el sistema de rutas dinámicas de Angular (<code>@angular/router</code>) para intercambiar vistas instantáneamente.</li>
+    <li><strong>Diseño Adaptativo (Responsive Design):** Garantizar soporte total en dispositivos de escritorio, tabletas y teléfonos móviles mediante CSS Grid y Flexbox.</li>
+    <li><strong>Interactividad en Formularios:</strong> Implementar formularios interactivos con validación activa en tiempo real y vinculación de datos bidireccional (<code>[(ngModel)]</code>).</li>
+    <li><strong>Arquitectura de Componentes Independientes:</strong> Adoptar <em>Standalone Components</em>, simplificando la estructura del código y optimizando la carga de memoria.</li>
+  </ul>
+
+  <h1>2. 🏗️ Arquitectura del Sistema y Tecnologías</h1>
+  <p>El proyecto ha sido construido utilizando las herramientas estándar de la industria web moderna:</p>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Tecnología / Herramienta</th>
+        <th>Versión</th>
+        <th>Función en la Aplicación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Angular Core</strong></td>
+        <td>^17.3.0</td>
+        <td>Framework SPA para el desarrollo estructurado de la interfaz de usuario.</td>
+      </tr>
+      <tr>
+        <td><strong>TypeScript</strong></td>
+        <td>~5.4.2</td>
+        <td>Lenguaje fuertemente tipado para la lógica de negocio y componentes.</td>
+      </tr>
+      <tr>
+        <td><strong>RxJS</strong></td>
+        <td>~7.8.0</td>
+        <td>Manejo de programación reactiva y flujos asíncronos.</td>
+      </tr>
+      <tr>
+        <td><strong>Angular Router</strong></td>
+        <td>^17.3.0</td>
+        <td>Navegación SPA entre componentes sin recargar el navegador.</td>
+      </tr>
+      <tr>
+        <td><strong>Angular Forms</strong></td>
+        <td>^17.3.0</td>
+        <td>Captura, validación y enlazamiento bidireccional de formularios.</td>
+      </tr>
+      <tr>
+        <td><strong>HTML5 & CSS3</strong></td>
+        <td>Estándar W3C</td>
+        <td>Maquetación semántica y estilos adaptativos mediante Media Queries.</td>
+      </tr>
+      <tr>
+        <td><strong>Git & GitHub</strong></td>
+        <td>V2.53 / GitHub</td>
+        <td>Gestión del control de versiones y alojamiento del código en la nube.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>3. 📂 Estructura de Directorios del Código Fuente</h1>
+  <p>La organización de carpetas sigue la guía de estilo oficial recomendada por el equipo de Angular:</p>
+
+  <pre>mi-app-routing/
+├── angular.json               # Configuración del CLI de Angular y presupuestos de compilación
+├── package.json               # Dependencias y scripts del proyecto
+├── tsconfig.json              # Configuración global del compilador de TypeScript
+├── src/
+│   ├── index.html             # Plantilla HTML raíz
+│   ├── main.ts                # Punto de entrada de la aplicación
+│   ├── styles.css             # Estilos globales
+│   └── app/
+│       ├── app.component.ts   # Componente raíz (Navbar + RouterOutlet)
+│       ├── app.routes.ts      # Tabla de rutas principal
+│       ├── app.config.ts      # Configuración de proveedores de rutas
+│       ├── home/              # Vista de Inicio (HomeComponent)
+│       ├── about/             # Vista Acerca de Nosotros (AboutComponent)
+│       ├── contact/           # Vista de Formulario (ContactComponent)
+│       └── servicios/         # Módulo de Catálogo de Servicios (ServiciosComponent)</pre>
+
+  <h1>4. 🔀 Configuración de Rutas (Angular Router)</h1>
+  <p>La tabla de enrutamiento se define en <code>app.routes.ts</code>, configurando las direcciones URL de la aplicación:</p>
+
+  <pre>import { Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+
+export const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'servicios', component: ServiciosComponent },
+  { path: '**', redirectTo: 'home' }
+];</pre>
+
+  <h1>5. 🧩 Detalle de Componentes y Funcionalidades</h1>
+
+  <h2>5.1 Componente Principal (<code>AppComponent</code>)</h2>
+  <p>Actúa como la cáscara principal (*Shell*) del sistema. Contiene la barra de navegación superior con el nombre de la empresa <strong>CompanyApp</strong>, los enlaces activos con <code>routerLinkActive="active"</code> y el área de renderizado dinámico <code>&lt;router-outlet&gt;</code>.</p>
+
+  <h2>5.2 Vista de Inicio (<code>HomeComponent</code>)</h2>
+  <p>Presenta la propuesta de valor institucional. Incluye una tarjeta de bienvenida, enlaces de navegación directa y un panel de tres tarjetas informativas: <strong>Innovación</strong>, <strong>Calidad</strong> y <strong>Soporte</strong>.</p>
+
+  <h2>5.3 Vista Acerca de Nosotros (<code>AboutComponent</code>)</h2>
+  <p>Presenta la historia de la empresa y su equipo multidisciplinario (CEO, Desarrollador Senior, Diseñadora UX/UI) en un diseño tipo grilla con imágenes de perfil circulares y estilos hover interactivos.</p>
+
+  <h2>5.4 Vista de Contacto (<code>ContactComponent</code>)</h2>
+  <p>Dispone de un panel dividido en dos columnas:</p>
+  <ul>
+    <li><strong>Información de Contacto:</strong> Datos de email, teléfono institucional, dirección y horarios de atención.</li>
+    <li><strong>Formulario Interactivo:</strong> Formulario Template-Driven con control de estado de validación (<code>contactForm.form.valid</code>). Al enviar, muestra una alerta de confirmación verde y limpia los campos tras 3 segundos.</li>
+  </ul>
+
+  <h2>5.5 Catálogo de Servicios (<code>ServiciosComponent</code>)</h2>
+  <p>Presenta el portafolio completo de soluciones digitales (Desarrollo Web, Marketing Digital, Redes Sociales, Desarrollo de Software, Hosting, Estrategia e Identidad de Marca).</p>
+
+  <h1>6. 📱 Diseño Responsivo (Responsive Design)</h1>
+  <p>La aplicación utiliza Media Queries nativas para adaptarse fluidamente a cualquier dispositivo:</p>
+  <ul>
+    <li><strong>Escritorio (> 768px):</strong> Layout en múltiples columnas (Grid de 3 columnas para equipos/servicios).</li>
+    <li><strong>Tabletas y Celulares (< 768px):** Ajuste automático a columna única (1fr) con controles táctiles optimizados.</li>
+    <li><strong>Celulares Pequeños (< 480px):</strong> Optimización de tipografías a 14px/16px para evitar el zoom no deseado en navegadores móviles.</li>
+  </ul>
+
+  <h1>7. ⚙️ Optimizaciones y Corrección de Compilación</h1>
+  <p>Durante la fase de construcción para producción (<code>ng build</code>), se optimizó el archivo <code>angular.json</code> ajustando los límites de presupuesto de componentes (<em>Style Budgets</em>):</p>
+
+  <pre>{
+  "type": "anyComponentStyle",
+  "maximumWarning": "10kb",
+  "maximumError": "15kb"
+}</pre>
+
+  <div class="highlight">
+    ✅ Resultado: El paquete de producción en <code>dist/mi-app-routing</code> compila exitosamente de forma limpia en menos de 16 segundos.
+  </div>
+
+  <h1>8. 💻 Guía de Instalación y Ejecución</h1>
+  <ol>
+    <li><strong>Clonar el repositorio:</strong> <code>git clone https://github.com/AngelOrdaya-Dev/Proyecto5C.git</code></li>
+    <li><strong>Ingresar a la carpeta:</strong> <code>cd Proyecto5C/mi-app-routing</code></li>
+    <li><strong>Instalar dependencias:</strong> <code>npm install</code></li>
+    <li><strong>Ejecutar el servidor local:</strong> <code>npm start</code></li>
+    <li><strong>Abrir en el navegador:</strong> <a href="http://localhost:4200/">http://localhost:4200/</a></li>
+  </ol>
+
+  <h1>9. 🎓 Conclusiones</h1>
+  <p>El proyecto <strong>CompanyApp</strong> demuestra la efectividad de Angular 17 para la creación de aplicaciones web de alto rendimiento. La implementación de Standalone Components, el enrutamiento limpio y la adaptación responsive aseguran una experiencia de usuario profesional y moderna.</p>
+
+  <div class="footer-note">
+    Documentación oficial para entrega de proyecto académico - Creado en formato compatible con WPS Office / Microsoft Word (.docx / .wps)
+  </div>
+
+</div>
+</body>
+</html>
