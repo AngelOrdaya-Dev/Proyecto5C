@@ -9,7 +9,7 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
     <div class="app-container"> 
       <!-- NAVEGACIÓN --> 
       <nav class="navbar"> 
-        <h1>CONDOR</h1> 
+        <h1>CompanyApp</h1> 
         <ul class="nav-menu"> 
           <li> 
             <a routerLink="/home"  
